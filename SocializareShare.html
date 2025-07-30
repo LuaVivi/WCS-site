@@ -8,12 +8,12 @@
 		<link rel="icon" type="image/x-icon" href="icon.ico">
 		<link rel="stylesheet" href="style.css"></link>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<title> Înscriere </title>
+		<title> Secretul "..." </title>
 	</head>
 	
 	<body>
 		<div class = "baracaut"> 
-			<h1> Profil <i>"elev"</i> pentru "O felie pentru toți" </h1> 
+			<h1> Inspirație live - socializare </h1> 
 			<a id = "ilink"><b>Înscrie-te</b></a>
 			<img class = "logo"  src = "logo1.png">
 		</div>
@@ -21,36 +21,16 @@
 		<button id = "home"><i class="fa fa-home"> </i> </button>
 		
 		<div class = "box">
-			<h2> Titlu </h2>
-			<h3> Subtitlu </h3>
-			<p>Paragraf</p>
+			<br><b>
+			<div class = "str">
 			
-			<video width="95%" height="auto" controls>
-				<source src="OFPT.mp4" type="video/mp4">
-				Your browser does not support the video tag.
-			</video><br><br>
-			
-			<p>Paragraf</p> <br><br> // br în html este un fel de enter de pe word
-			
-		</div>
+				<div class = "distractie">
+					<a href = "https://github.com/LuaVivi/WCS-site/tree/main"> Site web - coeditare live </a>
+				</div>
+				
+		</div></b>
 	</body>
 	
 	<script src="funct.js"></script> 
-	<script>
-		var coll = document.getElementsByClassName("ivar");
-		var i;
-		
-		for (i = 0; i < coll.length; i++) {
-		coll[i].addEventListener("click", function() {
-			this.classList.toggle("active");
-			var content = this.nextElementSibling.nextElementSibling;
-			if (content.style.maxHeight){
-			content.style.maxHeight = null;
-			} else {
-			content.style.maxHeight = content.scrollHeight + "px";
-			} 
-		});
-		}
-	</script>
 	
 </html>

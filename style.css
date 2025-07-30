@@ -53,6 +53,7 @@ a{
 	word-spacing: 5px;
 	font-size :18px;
 	color : #002717;
+	text-decoration : none;
 	font-family : Sans Serif Collection;
 	font-weight: none;
 	letter-spacing: 1.5px;
@@ -178,6 +179,19 @@ div.elev{
 	height : auto; 
 	margin-bottom : 10px;
 	text-align: center;
+}
+
+div.distractie{
+	display: inline-block;
+	background-color : #FFC75E;
+	border-radius : 22px;
+	height : auto; 
+	margin-top : 10px;
+	margin-bottom : 10px;
+	text-align: center;
+	padding : 5%;
+	padding-left : 10%;
+	padding-right : 10%; 
 }
 
 div.linkt{

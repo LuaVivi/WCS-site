@@ -8,7 +8,7 @@
 		<link rel="icon" type="image/x-icon" href="icon.ico">
 		<link rel="stylesheet" href="style.css"></link>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<title> Înscriere </title>
+		<title> "Persoană" </title>
 	</head>
 	
 	<body>
@@ -36,21 +36,5 @@
 	</body>
 	
 	<script src="funct.js"></script> 
-	<script>
-		var coll = document.getElementsByClassName("ivar");
-		var i;
-		
-		for (i = 0; i < coll.length; i++) {
-		coll[i].addEventListener("click", function() {
-			this.classList.toggle("active");
-			var content = this.nextElementSibling.nextElementSibling;
-			if (content.style.maxHeight){
-			content.style.maxHeight = null;
-			} else {
-			content.style.maxHeight = content.scrollHeight + "px";
-			} 
-		});
-		}
-	</script>
 	
 </html>
