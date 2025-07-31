@@ -218,7 +218,7 @@ div.linkt{
 	border-radius : 30px 40px 30px 0px;
 	margin-left : 0px; 
 	transition: 0.3s;
-	bottom : 20px;
+	top : 70%;
 	border-width: 0px;
 	text-decoration: none;
 	z-index : 10;
@@ -559,7 +559,7 @@ form button{
 		box-shadow : 8px 5px 70px 5px #c8ca44;
 		font-size :40px;
 		height : 15%;
-		margin-bottom : 118%;
+		top : 20%;
 	}
 	
 	form input, select{
