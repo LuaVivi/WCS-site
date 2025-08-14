@@ -8,6 +8,8 @@
 		<link rel="icon" type="image/x-icon" href="icon.ico">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="style.css"></link>
+		<link href='https://fonts.googleapis.com/css?family=Chelsea Market' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Rammetto One' rel='stylesheet'>
 		<title> Înscriere </title>
 	</head>
 	
@@ -25,14 +27,14 @@
 		</div>
 		
 		<div class = "baracaut"> 
-			<h1> Pagina de înscriere </h1> 
+			<h1> Pagina de înscriere </h1> <br>
 			<h1 id = "ilink" style = "display : none;"> Înscriere </h1> 
 			<img class = "logo"  src = "logo1.png">
 		</div>
 		
 		<button id = "home"><i class="fa fa-home"> </i> </button>
 		<div class = "box"><br>
-			<h2 style = "margin-bottom : 1px;"> Formular Înscriere </h2>
+			<h2 style = "margin-bottom : 1px; text-align : center;"> Formular Înscriere </h2>
 			
 			<form id = "inscr" autocomplete = "off" method = "post"><br>
 				<input type = "text" placeHolder = "Nume*" id = "name" name = "name" style  = "border-bottom: 1.5px solid #DEB134;" maxlength = 25 required/>
@@ -45,9 +47,7 @@
 				<textarea placeHolder = "Povestește aici!" id = "motiv" name = "motiv" style = "width : 85%; height : auto;"></textarea><br>
 				<br>
 				
-				<div style = "width : 70%; background-color : #ffffb3; margin : auto; border-radius : 20px; 
-				padding : 5%; margin-top : 60px; margin-bottom : 40px; border-top : 1.5px solid #DEB134;  
-				border-bottom: 1.5px solid #DEB134;">
+				<div class = "nise">
 				<p style = "font-size : 19px;"> Care sunt "nișele" pe care ai dori să te înscrii? </p><br>
 				
 				<label for  = "act" class = "checkbox">
@@ -94,15 +94,13 @@
 				
 				
 		<div>
-			<div class = "ivar" style = "float : left; margin-left : 7%;">
-				<a>Înscriere definitivă</a>
-			</div>
 			
-			<div class = "ivar" style = "float : right; margin-right : 7%;">
-				<a>Înscriere ca invitat</a>
-			</div>
+			
 			
 			<div class = "inform" style = "float : left; margin-left : 4%;">
+			<div class = "ivar" style = "float : left; margin-left : 7%;">
+				<a style = "font-family : 'Rammetto One';">Înscriere definitivă</a>
+			</div>
 				<p style = "font-size: 15px; color : #002717;">
 					Înscrierea definitivă impune ideea de a intra în club ca membru propriu-zis, unde
 					există posibilitatea de a propune, coordona sau participa la diverse proiecte. Sub
@@ -114,6 +112,9 @@
 			
 			
 			<div class = "inform" style = "float : right; margin-right : 4%;">
+			<div class = "ivar" style = "float : right; margin-right : 7%;">
+				<a style = "font-family : 'Rammetto One';">Înscriere ca invitat</a>
+			</div>
 				<p style = "font-size: 15px; color : #002717;"> 
 					Înscrierea ca invitat impune ideea de a intra în club ca membru temporar. 
 					Elevul va putea lucra pe un singur proiect ales de el și i se restricționează
@@ -133,7 +134,7 @@
 				<div style = "margin-top : 10px; margin : auto; display : inline-block; width : 100%;">
 				<br><label for = "type" style = "border-top: 1.5px solid #DEB134; border-bottom: 1.5px solid #DEB134;
 				background-color : #ffffb3;"> Tip de participare:* </label>
-					<select id = "type" name = "type" style = "border-radius : 0px 20px 20px 0px; font-size : 17px;" required> 
+					<select id = "type" name = "type" required> 
 						<option value = ""> Alege varianta de însciere </option>
 						<option> Invitat </option>
 						<option> Definitiv </option>
@@ -159,7 +160,7 @@
 				</div>
 				<br>
 				
-				<button type = "submit" name = "submit" class = "register-button" style = "margin : auto;"> Trimite </button>
+				<button type = "submit" name = "submit" class = "register-button" style = "margin : auto; font-family : 'Chelsea Market';"> Trimite </button>
 			</form><br><br>
 			
 		</div>
@@ -222,27 +223,31 @@
 		</script>
 	</body>
 	
-	<footer> 
-	
-	</footer>
+<footer> <br><br>
+		<div class = "f"><br>
+			<h2 class = "footer"> Social media </h2><br><br><br>
+			
+			<div class = "linkt" id = "yt"> <a class = "ull" style = "font-size : 12px; text-align : center;"> <img style = "width : 50px; margin : auto;" alt = "YouTube" src = "https://www.interstellarrift.com/wiki/images/d/d8/Youtube-logo-png-photo-0.png"><br> <p style = "font-size : 12px; margin-top : -10px; color : #004d00;">@Wax_CherryStudio</p>
+			</a> </div>
+			
+			<div class = "linkt" id = "insta"> <a class = "ull" style = "font-size : 12px; text-align : center;"> <img style = "width : 50px; margin : auto;" alt = "Intagram" src = "https://i.pinimg.com/originals/85/0d/b3/850db33d2e953501678b3bba2d25359e.png"><br> <p style = "font-size : 12px; margin-top : -10px; color : #004d00;">@studioul_corcoduselor</p>
+			</a> </div>
+			
+			<div class = "linkt" id = "tiktok"> <a class = "ull" style = "font-size : 12px; text-align : center;"> <img style = "width : 30px; margin : auto; border-radius: 5000px;" alt = "TikTok" src = "https://ugc.production.linktr.ee/VQ76BomvQESYaUmcNPem_IvmCXA89sTnnY0r2"><br> <p style = "font-size : 12px; margin-top : -10px; color : #004d00;">@wax_cherry_studio</p>
+			</a> </div>
+			
+			<br><br>
+		</div>
+		
+		<div class = "f" style = "right : 0;"><br>
+			<h2 class = "footer"> Contactează-ne </h2><br><br><br>
+			<p class = "fo"> <img src = "locicon.png" style = "width : 22px; margin : auto;"> Liceul "Grigore Moisil" Iași, România </p>
+			<p class = "fo"> <img src = "emailicon.png" style = "width : 20px; margin : auto;"> studioul.corcoduselor2024@gmail.com </p>
+			<br><br>
+		</div>
 	
 	<script src="funct.js"></script> 
-	<script>
-		var coll = document.getElementsByClassName("ivar");
-		var i;
-		
-		for (i = 0; i < coll.length; i++) {
-		coll[i].addEventListener("click", function() {
-			this.classList.toggle("active");
-			var content = this.nextElementSibling.nextElementSibling;
-			if (content.style.maxHeight){
-			content.style.maxHeight = null;
-			} else {
-			content.style.maxHeight = content.scrollHeight + "px";
-			} 
-		});
-		}
-	</script>
+	
 
 	
 </html>
