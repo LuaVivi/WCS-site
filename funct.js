@@ -3,15 +3,15 @@ document.getElementById("ilink").onclick = function () {
 };
 
 document.getElementById("yt").onclick = function () {
-            window.location.href = "https://www.youtube.com/@Wax_CherryStudio";
+            window.open("https://www.youtube.com/@Wax_CherryStudio");
 };
 
 document.getElementById("insta").onclick = function () {
-            window.location.href = "https://www.instagram.com/studioul_corcoduselor/";
+            window.open("https://www.instagram.com/studioul_corcoduselor/");
 };
 
 document.getElementById("tiktok").onclick = function () {
-            window.location.href = "https://www.tiktok.com/@wax_cherry_studio?lang=en-GB";
+            window.open("https://www.tiktok.com/@wax_cherry_studio?lang=en-GB");
 };
 
 document.getElementById("home").onclick = function () {

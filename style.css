@@ -176,22 +176,18 @@ div.str{
 	display: inline-block;
 	margin : auto;
 	margin-top : 24px;
-	margin-left : 5%;
 	margin-bottom : 40px; 
-	width : 90%;
+	width : 98%;
 	height : auto; 
 	text-align: center;
-	column-gap: 40px;
-	column-count: 3;
-	column-gap: 10px;
 }
 
 div.elev{
 	display: inline-block;
 	background-color : #FFC75E;
 	border-radius : 22px;
-	height : auto; 
-	width : 100%;
+	height : 100px; 
+	width : 30%;
 	margin-bottom : 10px;
 	text-align: center;
 	transition : 0.3s;
@@ -208,6 +204,7 @@ div.distractie{
 	padding : 5%;
 	padding-left : 10%;
 	padding-right : 10%; 
+	transition : 0.3s;
 }
 
 div.linkt{
@@ -268,17 +265,7 @@ div.projn{
 	margin-bottom : 15%;
 	position: relative;
 	z-index : 5;
-	animation-name: projloop 1s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-timing-function: ease-in-out;
-}
-
-@keyframes projloop {
-  0% {margin-top : 10%;}
-  50% {margin-top : 12%;}
-  75% {margin-top : 8%;}
-  100% {margin-top : 10%;}
+	cursor : pointer;
 }
 
 div.ptitlu{
@@ -290,6 +277,7 @@ div.ptitlu{
 	background-color : #FFC47C;
 	border-radius : 84px;
 	z-index : 4;
+	cursor : pointer;
 	transition : 0.3s;
 }
 
@@ -308,6 +296,25 @@ div.ptitlu{
 	margin-left : 0px; 
 	transition: 0.3s;
 	top : 10%;
+	margin-bottom: 10px;
+	border-width: 0px;
+	text-decoration: none;
+	z-index : 10;
+	cursor : pointer;
+}
+
+.OFPT{
+	box-shadow : 5px 2px 50px 0px #c8ca44;
+	background-color : #69E733;
+	display: block;
+	color : #394d00;
+	font-size :50px;
+	position: fixed;
+	height : 15%;
+	border-radius : 30px 40px 30px 0px;
+	margin-left : 0px; 
+	transition: 0.3s;
+	margin-top : 12%;
 	border-width: 0px;
 	text-decoration: none;
 	z-index : 10;
@@ -342,10 +349,16 @@ a.acces{
 	word-spacing: 5px;
 	margin-top: 13px;
 	font-size :19px;
-	color : #002717;
+	color : #004d00;
 	font-family : Sans Serif Collection;
 	font-weight: bold;
 	text-decoration: none;
+	background-color : #FFC47C; 
+	border-radius : 80px;
+	padding : 0.5%;
+	padding-left : 2%;
+	padding-right : 2%;
+	transition : 0.3s;
 }
 
 a.ull{
@@ -372,6 +385,14 @@ a.sursa{
 	text-decoration: none;
 }
 
+#bulina{
+	display : inline-block;
+	width : 15px;
+	height : 15px;
+	border-radius : 16px;
+	margin-right : 0px;
+	margin-left : 0px;
+}
 
 /* Modele clase imagini */
 		
@@ -394,7 +415,12 @@ img.icon{
 	
 div.elev:hover{
 	background-color : #FFB65D;
-	padding : 1%;
+	padding : 0.2%;
+}
+
+div.distractie:hover{
+	background-color : #FFB65D;
+	padding : 8%;
 }
 	
 #ilink:hover{
@@ -407,6 +433,19 @@ div.elev:hover{
 #home:hover{
 	background-color : #daee3f;
 	font-size:53px;
+}
+
+.OFPT:hover{
+	background-color : #daee3f;
+	font-size:53px;
+}
+
+a.acces:hover{
+	word-spacing: 7px;
+	background-color : #ff9966;
+	padding : 1%;
+	padding-left : 2.3%;
+	padding-right : 2.3%;
 }
 
 .linkt:hover{
@@ -689,7 +728,7 @@ form button{
 	
 	div.elev{
 		margin : auto;
-		margin-right: 20px; 
+		margin-bottom: 20px; 
 		width : 90%;
 	}
 	
@@ -697,8 +736,10 @@ form button{
 		column-count: 1;
 	}
 	
-	div.elev{
+	div.distractie{
+		margin : auto;
 		margin-bottom : 20px;
+		width : 70%;
 	}
 	
 	.checkmark {
@@ -714,6 +755,17 @@ form button{
 	}
 	
 	#home:hover{
+		font-size :35px;
+	}
+	
+	.OFPT{
+		box-shadow : 8px 5px 70px 5px #c8ca44;
+		font-size :30px;
+		height : 10%;
+		top : 20%;
+	}
+	
+	.OFPT:hover{
 		font-size :35px;
 	}
 	
