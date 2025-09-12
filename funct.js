@@ -15,7 +15,7 @@ document.getElementById("tiktok").onclick = function () {
 };
 
 document.getElementById("home").onclick = function () {
-            window.location.href = "WaxCherryStudio-Home.html";
+            window.location.href = "index.html";
 };
 
 document.getElementById("OFPT").onclick = function () {

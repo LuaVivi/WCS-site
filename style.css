@@ -41,7 +41,7 @@ h3{
 	word-spacing: 5px;
 	font-size :30px;
 	color : #004d00;
-	font-family : 'Rammetto One';
+	font-family : 'Roboto Serif';
 	font-weight: none;
 	letter-spacing: 2px;
 }
@@ -142,8 +142,8 @@ div.box{
 
 div.inform{
 	color : #004d00;
-	background-color : #ebff8a;
-	border-radius : 50px 22px 50px 22px;
+	background-color : #FFCA43;
+	border-radius : 84px;
 	height : auto; 
 	width : 45%;
 	margin-bottom: 30px;
@@ -154,16 +154,20 @@ div.inform{
 	transition : 0.3s;
 }
 
+div.inform{
+	width: 95%;
+}
+
 div.ivar{
 	color : #002717;
-	background-color : #69E733;
+	background-color : #FFF4B3;
 	border-color: #515f21;
 	border-radius : 80px 80px 10px 10px;
-	box-shadow : 1px 1px 50px 1px #c8ca44;
-	padding-left : 5%;
-	padding-right : 5%;
-	margin-top : 30px;
-	margin-bottom : 20px;
+	padding: 2%;
+	padding-left : 10%;
+	padding-right : 10%;
+	margin-top : 5px;
+	margin-bottom : 10px;
 	width: 70%; 
 	height : auto;
 	transition: 0.3s;
@@ -370,7 +374,7 @@ a.ull{
 	font-size :20px;
 	color : #004d00;
 	text-align : left;
-	font-family : 'Rammetto One';
+	font-family : 'Roboto Serif';
 	text-decoration: none;
 }
 
@@ -493,7 +497,12 @@ form input, select, textarea{
 	margin-bottom : 10px;
 	font-family : Sans Serif Collection; 
 	box-shadow : 1px 1px 7px 1px #DEB134;	
+	resize: none;
 	transition : 0.3s;
+}
+
+form textarea{
+	height : 300px;
 }
 
 form label{
@@ -681,7 +690,7 @@ form button{
 	}
 	
 	div.box{
-		width : 95%;
+		width : 85%;
 		margin : auto;
 		margin-top : 20px;
 		height : auto;
@@ -724,6 +733,7 @@ form button{
 	
 	img.logo{
 		margin-right : 0px;
+		display : none;
 	}
 	
 	div.elev{
@@ -837,5 +847,22 @@ form button{
 	
 	p.fo{
 		margin-left : 10%;
+	}
+	
+	div.projn{
+		width : 90%;
+	}
+	
+	div.ptitlu{
+		padding : 7%;
+		width : 60%;
+		display : inline-block;
+		margin-top : -20%;
+		margin-left : -40%;
+		background-color : #FFC47C;
+		border-radius : 84px;
+		z-index : 4;
+		cursor : pointer;
+		transition : 0.3s;
 	}
 }

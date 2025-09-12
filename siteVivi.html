@@ -7,9 +7,10 @@
 	<head>
 		<link rel="icon" type="image/x-icon" href="icon.ico">
 		<link rel="stylesheet" href="style.css"></link>
+		<link rel="stylesheet" href="stilprofil.css"></link>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Chelsea Market' rel='stylesheet'>
-		<link href='https://fonts.googleapis.com/css?family=Rammetto One' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto Serif' rel='stylesheet'>
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		
 		<title> Viviana </title>
@@ -27,19 +28,71 @@
 		<button id = "OFPT" class = "OFPT"><i class="material-icons" > arrow_back </i> </button>
 		
 		<div class = "box">
-			<h2> Titlu </h2>
+			<br>
+			<h2> Profil personal </h2><br><br>
+			
+			<div id = "pers"><br>
+				
+				<p id = "item2" class = "date"> Nume : Pașaniuc </p>
+				<p class = "date"> Prenume :  Elena - Viviana </p>
+				<p class = "date"> Clasa : XI - XII </p><br>
+				
+				<img class = "om" src = "vivi2.png" id = "item1">
+				
+				<p> Contacte : </p>
+				
+				<a class = "ccutie" href = "https://www.instagram.com/vivigirl08132?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> 
+					<img src = "https://i.pinimg.com/originals/85/0d/b3/850db33d2e953501678b3bba2d25359e.png" style = "display : inline; height : 45px; float : left;">
+					<p class = "tag"> @vivigirl08132</p>
+				</a>
+				
+				<a class = "ccutie" href = "mailto:viviana.pasaniuc6@gmail.com"> 
+					<img src = "https://i.pinimg.com/originals/2c/1a/75/2c1a7560c88ea83e6b2593cd07af8ad8.png" style = "display : inline; height : 45px; float : left;">
+					<p class = "tag"> viviana.pasaniuc6@gmail.com </p>
+				</a>
+				
+				<a class = "ccutie" href = "https://www.linkedin.com/in/elena-viviana-pasaniuc-31421437b/"> 
+					<img src = "https://www.srtr.org/assets/media/images/linkedin-logo.jpg" style = "display : inline; height : 45px; float : left;">
+					<p class = "tag"> Elena - Viviana Pasaniuc </p>
+				</a>
+				
+				<br>
+				
+				<p class = "sfat" id = "item3"> Sheep.. Sheep... Sheep... It's time for sleep </p>
+				
+			</div><br><br>
+			
+			<h2> Profil profesional </h2>
 			<h3> Subtitlu </h3>
-			<p>Paragraf</p>
 			
-			<video width="95%" height="auto" controls>
-				<source src="OFPT.mp4" type="video/mp4">
-				Your browser does not support the video tag.
-			</video><br><br>
+			<p>Paragraf</p> <br><br> 
 			
-			<p>Paragraf</p> <br><br> // br în html este un fel de enter de pe word
+			<h2> Toate proiectele la care am lucrat? </h2><br>
+			<br><br>
 			
-			<img src = "icon.ico">
+			<a>
+				<div class = "othproj" id = "stillhere"> 
+					<img src = "a2.gif">
+					<p> O felie pentru toți </p>
+				</div>
+			</b>
 			
+			<a href = "https://www.w3schools.com/">
+				<div class = "othproj"> 
+					<img src = "a2.gif">
+					<p> Antidrog </p>
+				</div>
+			</a>
+			
+			<a href = "https://www.w3schools.com/">
+				<div class = "othproj"> 
+					<img src = "a2.gif">
+					<p> Antidrog </p>
+				</div>
+			</a>
+			
+			<br><br><br><br>
+				
 		</div>
 	</body>
 	
@@ -67,5 +120,18 @@
 		</div>
 	
 	<script src="funct.js"></script> 
+	<script>
+		const elementToMove = document.getElementById("item1");
+		const targetSibling = document.getElementById("item3");
+		
+		function rearrangeOnPortrait() {
+		  if (window.screen.width < window.screen.height) {
+			targetSibling.parentNode.insertBefore(elementToMove, targetSibling);
+		  }
+		}
+
+		window.addEventListener("load", rearrangeOnPortrait);
+		window.addEventListener("resize", rearrangeOnPortrait);
+	</script>
 	
 </html>
