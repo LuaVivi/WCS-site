@@ -848,6 +848,7 @@ form button{
 	p.fo{
 		margin-left : 10%;
 	}
+<<<<<<< HEAD
 	
 	div.projn{
 		width : 90%;
@@ -866,3 +867,6 @@ form button{
 		transition : 0.3s;
 	}
 }
+=======
+}
+>>>>>>> 2cb87813271fb4a17bec63097b6d4ad0fd9aa0f5
