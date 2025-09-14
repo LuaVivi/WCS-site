@@ -154,8 +154,8 @@ div.inform{
 	transition : 0.3s;
 }
 
-div.inform{
-	width: 95%;
+div.inform p{
+	width: 90%;
 }
 
 div.ivar{
