@@ -33,13 +33,13 @@
 			
 			<div id = "pers"><br>
 				
-				<p id = "item2" class = "date"> Nume : Pașaniuc </p>
+				<p class = "date"> Nume : Pașaniuc </p>
 				<p class = "date"> Prenume :  Elena - Viviana </p>
 				<p class = "date"> Clasa : XI - XII </p><br>
 				
 				<img class = "om" src = "vivi2.png" id = "item1">
 				
-				<p> Contacte : </p>
+				<p id = "item2"> Contacte : </p>
 				
 				<a class = "ccutie" href = "https://www.instagram.com/vivigirl08132?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> 
 					<img src = "https://i.pinimg.com/originals/85/0d/b3/850db33d2e953501678b3bba2d25359e.png" style = "display : inline; height : 45px; float : left;">
@@ -80,7 +80,78 @@
 			</div><br><br>
 			
 			<h2> Profil profesional </h2>
-			<h3> Roluri actorie </h3>
+			<h3> Rol actorie </h3>
+			
+			
+			
+			<h3> Rol design </h3>
+			
+			<p> În scopul de a contribui la animația "<b>O felie pentru toți</b>" am
+			făcut design-uri atât pe cont propriu, cât și în colaborare cu alți
+			membri. </p>
+			
+			<div class = "iimg">
+				<img  src = "Vivi/Achim design.png">
+				<p> <b>Personajul Achim, personaj principal al animației "O felie 
+				pentru toți". </b> 
+				<br> Achim este un pesonaj "rotund", ce evoluează de la a fi
+				agresiv, axat pe emoțiile negative, la a fi calm, chiar
+				și atunci când cei din jur nu sunt.
+				</p>
+			</div> 
+			
+			<p> <b>Experiență personală</b> : "Dintotdeauna am avut dificultăți
+			în a desena corpuri masculine, care simultan să nu aibă caracteristici
+			feminine sau copilărești. Bazându-mă pe ideea dată de Georgiana 
+			de a îi oferi un caracteristici triunghiulare,
+			am reușit
+			să fac primul personaj bărbătesc."
+			</p><br>
+			
+			<div class = "iimg">
+				<img  src = "Vivi/ScenaFinal_Lucia_8.png">
+				<p> <b>Un cadru simplu</b>, o încercare nedefinitivată, 
+				dar definivativă în modul de lucru...
+				</p>
+			</div>
+			
+			<div class = "iimg">
+				<img  src = "Vivi/background1.png">
+				<p> Cadrul în care se pune în lumină un eveniment nefericit 
+				al oricărei perosane desconsiderate de societate. <b> Bulling </b>
+				</p>
+			</div>
+			
+			<p> <b>Experiență personală</b> : "Pot recunoaște că sunt printre 
+			primele încercări persistente de a face un cadru decent, dar 
+			simultan sunt și cele mai reușite."
+			
+			</p><br>
+			
+			<div class = "iimg">
+				<img  src = "Vivi/cetateanul colorat.png">
+				<p> <b>Copilul din medii defavorizate ce încearcă să îi fure
+				protagonistului brelocul din buzunar. </b> 
+				<br> Acest personaj este o oglindă a lui Achim,
+				care merge într-o direcție opusă față de cea
+				reprezentată de animație.
+				</p>
+			</div>
+			
+			<div class = "iimg">
+				<img  src = "Vivi/miuta.png">
+				<p> Miuța este un personaj de fundal care ar putea fi
+				relevant într-o animație din viitor. <b> >:> </b>
+				</p>
+			</div>
+			
+			<p> <b>Experiență personală</b> : "Nu am fost scoasă din 
+			zona de comfort, dar au fost niște joculețe drăguțe."
+			</p><br>
+			
+			<h3> Rol animație </h3>
+			
+			
 			
 			<p>Paragraf</p> <br><br> 
 			
@@ -121,7 +192,7 @@
 			</a> </div>
 			
 			<div class = "linkt" id = "insta"> <a class = "ull" style = "font-size : 12px; text-align : center;"> <img style = "width : 50px; margin : auto;" alt = "Intagram" src = "https://i.pinimg.com/originals/85/0d/b3/850db33d2e953501678b3bba2d25359e.png"><br> <p style = "font-size : 12px; margin-top : -10px; color : #004d00;">@studioul_corcoduselor</p>
-			</a> </div>
+			</a> </div><br>
 			
 			<div class = "linkt" id = "tiktok"> <a class = "ull" style = "font-size : 12px; text-align : center;"> <img style = "width : 30px; margin : auto; border-radius: 5000px;" alt = "TikTok" src = "https://ugc.production.linktr.ee/VQ76BomvQESYaUmcNPem_IvmCXA89sTnnY0r2"><br> <p style = "font-size : 12px; margin-top : -10px; color : #004d00;">@wax_cherry_studio</p>
 			</a> </div>
@@ -141,11 +212,14 @@
 	
 	<script>
 		const elementToMove = document.getElementById("item1");
+		const targetSibling2 = document.getElementById("item2");
 		const targetSibling = document.getElementById("item3");
 		
 		function rearrangeOnPortrait() {
 		  if (window.screen.width < window.screen.height) {
 			targetSibling.parentNode.insertBefore(elementToMove, targetSibling);
+		  }else{
+			targetSibling.parentNode.insertBefore(elementToMove, targetSibling2);
 		  }
 		}
 

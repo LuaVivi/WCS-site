@@ -1,3 +1,33 @@
+
+div.iimg img{
+	display : block;
+	margin : auto;
+	border-radius : 20px 20px 0px 0px;
+	width : 97%;
+}
+
+div.iimg p{
+	font-size : 15px;
+	color : #004d00;
+	width : 90%;
+}
+
+div.iimg{
+	display : inline-block;
+	width : 45%;
+	cursor : pointer;
+	background-color : #e6d5b7; 
+	border-radius : 25px;
+	margin-bottom : 20px;
+	transition : 0.3s;
+	border : 0px solid red;
+}
+
+div.iimg:hover{
+	padding : 0.01%;
+	border : 5px solid #ffb366;
+}
+
 p.sfat{
 	display : inline-block;
 	background-color : #ffc994;
@@ -6,6 +36,12 @@ p.sfat{
 	width : 45%;
 	margin-left : 30px; 
 	box-shadow : 1px 1px 20px 1px #c7b99e;
+	border : 0px solid red;
+	transition : 0.3s;
+}
+
+p.sfat:hover{
+	border : 5px solid #ffb366;
 }
 
 p.tag{
@@ -102,6 +138,10 @@ div.othproj:hover{
 }
 
 @media only screen and (max-aspect-ratio: 1/1) {
+		div.iimg{
+		width : 90%;
+	}
+	
 	p.sfat{
 		border-radius : 20px;
 		padding : 2%;

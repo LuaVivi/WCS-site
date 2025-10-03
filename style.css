@@ -42,7 +42,7 @@ h3{
 	font-size :30px;
 	color : #004d00;
 	font-family : 'Roboto Serif';
-	font-weight: none;
+	font-weight: bolder;
 	letter-spacing: 2px;
 }
 
@@ -227,10 +227,10 @@ div.linkt{
 }
 
 div.nise{
-	width : 70%;
+	width : 65%;
 	background-color : #ffffb3; 
 	margin : auto; 
-	border-radius : 20px; 
+	border-radius : 80px; 
 	padding : 5%;
 	margin-top : 60px; 
 	margin-bottom : 40px; 
@@ -273,10 +273,10 @@ div.projn{
 }
 
 div.ptitlu{
-	padding : 7%;
+	padding : 6%;
 	width : 60%;
 	display : inline-block;
-	margin-top : -20%;
+	margin-top : -10%;
 	margin-left : -70%;
 	background-color : #FFC47C;
 	border-radius : 84px;
@@ -376,6 +376,7 @@ a.ull{
 	text-align : left;
 	font-family : 'Roboto Serif';
 	text-decoration: none;
+	font-weight : bolder;
 }
 
 a.sursa{
@@ -413,6 +414,18 @@ img.icon{
 	height : auto;
 	border-radius : 100px;
 	margin : auto;
+}
+
+img.cincia{
+	border-radius : 10px;
+	width: 20%;
+	margin-left : 30%;
+	margin-top : 5px;
+	transition : 0.3s;
+}
+
+img.cincia:hover{
+	rotate: 180deg;
 }
 
 /* Modele animatii */
@@ -479,7 +492,7 @@ input:hover , textarea:hover, label:hover{
 }
 
 div.ptitlu:hover{
-	padding : 8%;
+	padding : 6.5%;
 	background-color : #FFB65D;
 }
 
@@ -848,7 +861,6 @@ form button{
 	p.fo{
 		margin-left : 10%;
 	}
-<<<<<<< HEAD
 	
 	div.projn{
 		width : 90%;
@@ -866,7 +878,10 @@ form button{
 		cursor : pointer;
 		transition : 0.3s;
 	}
+	
+	div.nise{
+		width : 80%;
+		border-radius : 50px;
+	}
 }
-=======
-}
->>>>>>> 2cb87813271fb4a17bec63097b6d4ad0fd9aa0f5
+
