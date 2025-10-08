@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	<head>
+		<link rel="icon" type="image/x-icon" href="icon.ico">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style.css"></link>
+		<link href='https://fonts.googleapis.com/css?family=Chelsea Market' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto Serif' rel='stylesheet'>
+		<title> Resurse </title>
+	</head>
+	
+	<body>
+		<div class = "baracaut"> 
+			<h1> Resurse </h1> <br>
+			<h1 id = "ilink"> Înscrie-te </h1> 
+			<img class = "logo"  src = "logo1.png">
+		</div>
+		
+		
+		<button id = "home"><i class="fa fa-home"> </i> </button>
+		
+		<div class = "box"><br>
+			<p style = "font-size : 12px;"> *În scopul intrării în clubul de animație, vor fi testări pe
+			baza 
+			cursurilor cuprinse în acest site. </p><br>
+		
+			<h3> Care curs îl cauți? </h3>
+			
+			<div id = "">
+			
+			</div>
+			
+			<p>  </p>
+			
+			<p>  </p>
+		</div>
+		
+	</body>
+	
+	<footer id = "share">
+	
+	 <script>
+		fetch('footer.html')
+		  .then(response => response.text())
+		  .then(data => {
+			document.getElementById('footer').innerHTML = data;
+		  })
+		  .catch(error => console.error('Eroare la încărcarea footer-ului:', error));
+	  </script>
+	</footer>
+	
+	<script src="funct.js"></script> 
+	
+</html>

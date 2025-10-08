@@ -390,6 +390,15 @@ a.sursa{
 	text-decoration: none;
 }
 
+a.fot{
+	text-decoration : none;
+	font-size : 13px;
+	color : #FFF5D2;
+	display : block;
+	margin-left : 25%;
+	text-align : left;
+}
+
 #bulina{
 	display : inline-block;
 	width : 15px;
