@@ -30,8 +30,20 @@
 		
 			<h3> Care curs îl cauți? </h3>
 			
-			<div id = "">
+			<select id = "type" name = "type" style = "border-radius: 20px;"> 
+						<option value = "" style = "background-color : yellow;"> Alege domeniul </option>
+						<option> Actorie </option>
+						<option> Design de personaje </option>
+						<option> Animație brută </option>
+						<option> Animație clean-up </option>
+						<option> Sonor </option>
+						<option> Editare video </option>
+						<option> Design de cadre </option>
+						<option> Scenarist </option>
+					</select><br><br>
 			
+			<div id = "">
+				
 			</div>
 			
 			<p>  </p>
@@ -43,16 +55,9 @@
 	
 	<footer id = "share">
 	
-	 <script>
-		fetch('footer.html')
-		  .then(response => response.text())
-		  .then(data => {
-			document.getElementById('footer').innerHTML = data;
-		  })
-		  .catch(error => console.error('Eroare la încărcarea footer-ului:', error));
-	  </script>
 	</footer>
 	
 	<script src="funct.js"></script> 
+	<script src="fot.js"></script> 
 	
 </html>
