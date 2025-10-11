@@ -13,6 +13,13 @@
 		<title> Resurse </title>
 	</head>
 	
+	<style>
+		.curs{
+			margin-bottom : 100px;
+			border-bottom : 3px solid #ffbf00;
+		}
+	</style>
+	
 	<body>
 		<div class = "baracaut"> 
 			<h1> Resurse </h1> <br>
@@ -24,29 +31,102 @@
 		<button id = "home"><i class="fa fa-home"> </i> </button>
 		
 		<div class = "box"><br>
-			<p style = "font-size : 12px;"> *În scopul intrării în clubul de animație, vor fi testări pe
-			baza 
-			cursurilor cuprinse în acest site. </p><br>
+			<p style = "font-size : 12px; color : red;"> *În scopul intrării în clubul de
+			animație, vor fi testări pe baza 
+			cursurilor cuprinse în acest site. De asemenea este important de menționat 
+			faptul că este obligatorie prezentața la interviu. </p><br>
 		
-			<h3> Care curs îl cauți? </h3>
+			<h3> Ce curs cauți? </h3>
 			
-			<select id = "type" name = "type" style = "border-radius: 20px;"> 
-						<option value = "" style = "background-color : yellow;"> Alege domeniul </option>
-						<option> Actorie </option>
-						<option> Design de personaje </option>
-						<option> Animație brută </option>
-						<option> Animație clean-up </option>
-						<option> Sonor </option>
-						<option> Editare video </option>
-						<option> Design de cadre </option>
-						<option> Scenarist </option>
-					</select><br><br>
+			<p> Materialele sunt accesibile tuturor, dar testările pot fi date doar celor
+			înscriși. Orice curs îl cauți, alege în selector și va apărea automat sub 
+			acesta. Don't forget to have fun! </p>
 			
-			<div id = "">
+			<select id = "type" style = "border-radius: 20px; margin-bottom : 50px;"> 
+						<option value = "" style = "background-color : #ffffcc;"> Alege domeniul </option>
+						<option value = "actorie" style = "background-color : #99ff99;"> Actorie </option>
+						<option value = "chardesign" style = "background-color : #fff799;"> Design de personaje </option>
+						<option value = "animatieb" style = "background-color : #ff9999;"> Animație brută </option>
+						<option value = "animatiec" style = "background-color : #ffb3b3;"> Animație clean-up </option>
+						<option value = "sonor" style = "background-color : #b3e6ff;"> Coloană sonoră </option>
+						<option value = "evideo" style = "background-color : #ffd480;"> Editare video </option>
+						<option value = "backdesign" style = "background-color : #ffb3e6;"> Design de cadre </option>
+						<option value = "scena" style = "background-color : #e6e6e6;"> Scenarist </option>
+			</select>
+			
+			<div class = "curs" id = "actorie">
+				<h3> Actorie </h3>
 				
+				<p>  </p>
+				<a style = "float : right; margin-right : 5%; diplay : block;" href = "https://www.youtube.com/watch?v=e6eJ4I2FWdY&list=PLHNImA4j5QKarPJYGLw9fZ9qjXV3gCVkh"> Resurse actorie YouTube </a>
+				<br><br><p style = "color : green; font-size : 15px;"> Spoiler : testarea va consta în
+				fi jucarea unui personaj cu descriere precizată (timp de lucru : 15 minute). </p>
 			</div>
 			
-			<p>  </p>
+			<div class = "curs" id = "chardesign">
+				<h3> Design de personaje </h3>
+				<p>  </p>
+				<a style = "float : right; margin-right : 5%; diplay : block;" href = "https://www.youtube.com/watch?v=Q3LiCWkq2V4&list=PLHNImA4j5QKa9t8MdGH5UIagpHhJKvnWb"> Resurse design de personaje YouTube </a>
+				<br><br><p style = "color : #cc9900; font-size : 15px;"> Spoiler : testarea va consta în
+				crearea unui personaj în funcție de o anumită descriere
+				(timp de lucru : 30 minute - 1 oră). </p>
+			</div>
+			
+			<div class = "curs" id = "animatieb">
+				<h3> Animație brută </h3>
+				<iframe src = "file:///D:/AlMeu/WaxCherryStudio/Anima%C8%9BieBruta%20.pdf"></iframe>
+				
+				<p>  </p>
+				<a style = "float : right; margin-right : 5%; diplay : block;" href = "https://www.youtube.com/watch?v=6doF0o0gbBg&list=PLHNImA4j5QKbL2Q2fSbedZ4sZfMuOD11A"> Resurse animație brută YouTube </a>
+				<br><br><p style = "color : red; font-size : 15px;"> Spoiler : testarea va consta în
+				animarea unei scene cu descriere dată 
+				(timp de lucru : 1 - 2 ore). </p>
+			</div>
+			
+			<div class = "curs" id = "animatiec">
+				<h3> Animație clean-up </h3>
+				<p>  </p>
+				<a style = "float : right; margin-right : 5%; diplay : block;" href = "https://www.youtube.com/watch?v=Ze9ffaeOLs4&list=PLHNImA4j5QKYqQJzzUeEjqo1YthIJoCB4"> Resurse animație de curățare YouTube </a>
+				<br><br><p style = "color : red; font-size : 15px;"> Spoiler : testarea va consta în
+				curățarea unei animații de maxim 3 secunde
+				(timp de lucru : 1 oră). </p>
+			</div>
+			
+			<div class = "curs" id = "sonor">
+				<h3> Coloană sonoră </h3>
+				<p>  </p>
+				<a style = "float : right; margin-right : 5%; diplay : block;" href = "https://www.youtube.com/watch?v=Kawg4LqAHh8&list=PLHNImA4j5QKY_OcvKsZfs6EJSqEh7jHlc"> Resurse sonor YouTube </a>
+				<br><br><p style = "color : blue; font-size : 15px;"> Spoiler : testarea va consta în
+				realizarea unor sunete pentru un clip, ce include voice acting
+				(timp de lucru : 1 oră). </p>
+			</div>
+			
+			<div class = "curs" id = "evideo">
+				<h3> Editare video </h3>
+				<p>  </p>
+				<a style = "float : right; margin-right : 5%; diplay : block;" href = "https://www.youtube.com/watch?v=uCwrYiU54ZM&list=PLHNImA4j5QKbYUyQMCMh8_A10PWyzFCFR"> Resurse editare video YouTube </a>
+				<br><br><p style = "color : orange; font-size : 15px;"> Spoiler : testarea va consta în
+				editarea unei animații și punerea creditelor sub orice formă
+				(timp de lucru : 3 oră). </p>
+			</div>
+			
+			<div class = "curs" id = "backdesign">
+				<h3> Design de cadre </h3>
+				<p>  </p>
+				<a style = "float : right; margin-right : 5%; diplay : block;" href = "https://www.youtube.com/watch?v=PGFzcwNI7fc&list=PLHNImA4j5QKZ_2RNvKYX6ojezT3jQ1WzQ"> Resurse design de cadre YouTube </a>
+				<br><br><p style = "color : #ff33ff; font-size : 15px;"> Spoiler : testarea va consta în
+				 realizarea a maxim 2 cadre
+				(timp de lucru : 1 - 2 ore). </p>
+			</div>
+			
+			<div class = "curs" id = "scena">
+				<h3> Scenarist </h3>
+				<p>  </p>
+				<a style = "float : right; margin-right : 5%; diplay : block;" href = "https://www.youtube.com/watch?v=6doF0o0gbBg&list=PLHNImA4j5QKbL2Q2fSbedZ4sZfMuOD11A"> Resurse scenariu YouTube </a>
+				<br><br><p style = "color : grey; font-size : 15px;"> Spoiler : testarea va consta în
+				lucru în echipă pentru a realiza un scenariu mulțumitor
+				(timp de lucru : 2 ore). </p>
+			</div>
 			
 			<p>  </p>
 		</div>
@@ -57,6 +137,7 @@
 	
 	</footer>
 	
+	<script src="find.js"></script> 
 	<script src="fot.js"></script> 
 	<script src="funct.js"></script> 
 	

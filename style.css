@@ -90,6 +90,14 @@ ul{
 	text-decoration : none; 
 }
 
+iframe {
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 22px;
+	height: 500px;
+}
+
 footer{
 	display: flex;
 	justify-content: space-around;
