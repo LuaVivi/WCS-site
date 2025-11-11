@@ -24,7 +24,7 @@
 			<h3> Datele vor fi trimise în câteva momente </h3>
 			<p> Vă rugăm să aveți răbdare, formularul dvs. este în proces de trimitere... </p>
 			
-			<img src = "a2.gif" style = "width : 40%; display : inline-block;">
+			<img src = "asteptare2.gif" style = "width : 40%; display : inline-block;">
 			<img src = "asteptare.gif" style = "width : 40%; display : inline-block; float : right;">
 			<img src = "animatieclasa_a_cincea.gif" class = "cincia">
 			
@@ -37,9 +37,6 @@
 			<h1 id = "ilink" style = "display : none;"> Înscriere </h1> 
 			<img class = "logo"  src = "logo1.png">
 		</div>
-		
-		
-		<button id = "home"><i class="fa fa-home"> </i> </button>
 		
 		<div class = "box"><br>
 			<h2 style = "margin-bottom : 1px; text-align : center;"> Formular Înscriere </h2>
@@ -73,11 +70,6 @@
 				<span class = "check"></span>
 				animator/oare pe desen brut </label><br>
 				
-				<label for  = "animcurat" class = "checkbox">
-				<input type = "checkbox" class = "prime" id = "animcurat" name = "animcurat" /> 
-				<span class = "check"></span>
-				animatori/oare de curațare </label><br>
-				
 				<label for  = "sonor" class = "checkbox"> 
 				<input type = "checkbox" class = "prime" id = "sonor" name = "sonor" />
 				<span class = "check"></span>
@@ -106,7 +98,7 @@
 			
 			
 			<div class = "inform" style = "float : left; margin-left : 4%;">
-			<div class = "ivar" style = "float : left; margin-left : 5%;">
+			<div class = "ivar">
 				<a style = "font-family : 'Roboto Serif';"><b>Înscriere definitivă</b></a>
 			</div>
 				<p style = "font-size: 15px; color : #002717;">
@@ -120,13 +112,13 @@
 			
 			
 			<div class = "inform" style = "float : right; margin-right : 4%;">
-			<div class = "ivar" style = "float : right; margin-right : 5%;">
-				<a style = "font-family : 'Roboto Serif';"><b>Înscriere ca invitat</b></a>
+			<div class = "ivar">
+				<a style = "font-family : 'Roboto Serif';"><b>Înscriere ca voluntar </b></a>
 			</div>
 				<p style = "font-size: 15px; color : #002717;"> 
 					Înscrierea ca invitat impune ideea de a intra în club ca membru temporar. 
 					Elevul va putea lucra pe un singur proiect ales de el și i se restricționează
-					accesul la munca celor ce nu au tangență cu profilul său, dar nu îl va limita în 
+					accesul la munca celor ce nu au tangență cu proiectul său, dar nu îl va limita în 
 					a da idei pe partea de scenariu și în mod evident pe nișele la care s-a înscris.
 				</p><p style = "size : 1px; line-height : 1px;"><br></p>
 			</div>
@@ -144,7 +136,7 @@
 				background-color : #ffffb3;"> Tip de participare:* </label>
 					<select id = "type" name = "type" required> 
 						<option value = ""> Alege varianta de însciere </option>
-						<option> Invitat </option>
+						<option> Voluntar </option>
 						<option> Definitiv </option>
 					</select><br><br>
 				</div>
@@ -157,7 +149,7 @@
 					<label class="container">
 						  <input type="radio" value = "antidrog" id = "proj" name="proj">
 						  <span class="checkmark"></span>
-						  Antidrog
+						  Tematică - Antidrog
 					</label>
 				</div>
 				<br>
@@ -215,7 +207,7 @@
 			const selector = document.getElementById('type');
 			
 			selector.addEventListener("change", function() {
-			  if (selector.value === "Invitat") {
+			  if (selector.value === "Voluntar") {
 				proiecte.style.display = "inline";
 			  } else {
 				proiecte.style.display = "none";

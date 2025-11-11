@@ -164,9 +164,11 @@ div.inform{
 
 div.inform p{
 	width: 90%;
+	margin-top : 10px;
 }
 
 div.ivar{
+	margin : auto;
 	color : #002717;
 	background-color : #FFF4B3;
 	border-color: #515f21;
@@ -831,7 +833,8 @@ form button{
 	
 	div.inform{
 		height : auto; 
-		width : 80%;
+		width : 90%;
+		border-radius : 60px;
 		margin-bottom: 30px;
 		font-family : Sans Serif Collection;
 		overflow: hidden;
@@ -840,14 +843,20 @@ form button{
 
 	div.ivar{
 		padding : 1%;
+		margin : auto;
 		padding-left : 6%;
 		padding-right : 6%;
 		border-radius : 80px 80px 20px 20px;
-		margin-top : 40px;
+		margin-top : 20px;
 		width: 70%; 
 		border-style: solid;
 		border-width: 0px;
 		display: block;
+	}
+	
+	div.inform p{
+		margin-top : 20px;
+		width : 85%;
 	}
 	
 	form button{
