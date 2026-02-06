@@ -80,6 +80,11 @@ video{
 	border-radius: 22px;
 }
 
+audio{
+	margin-top : 10px ; 
+	
+}
+
 ul{
 	background-image: linear-gradient(#FFEEB0, #ffffb3);
 	text-indent: 40px;
