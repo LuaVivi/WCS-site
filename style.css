@@ -349,7 +349,7 @@ div.ptitlu{
 	padding : 0.8%;
 	padding-left : 5%;
 	padding-right : 5%;
-	background-color : #69E733;
+	background-color : #a0aba0 /*#69E733 - cand este deschis */;
 	border-radius : 80px;
 	height : auto;
 	margin : auto;
@@ -464,8 +464,8 @@ div.distractie:hover{
 }
 	
 #ilink:hover{
-	background-color : #A4EE3D;
-	border-color: #A4EE3D;
+	/*background-color : #A4EE3D;
+	border-color: #A4EE3D;*/
 	padding-left : 6%; 
 	padding-right : 6%; 
 }
